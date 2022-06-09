@@ -5,7 +5,7 @@ import com.example.network.entities.models.OpenWeatherDTO
 import com.example.network.repositories.OpenWeatherRepository
 
 class GetLatestWeatherUseCase(
-    private val weatherRepository: OpenWeatherRepository
+    private val weatherRepository: OpenWeatherRepository = OpenWeatherRepository
 ) {
     operator fun invoke(mutableLiveData: MutableLiveData<OpenWeatherDTO.Main>) {
         weatherRepository.getWeatherData(mutableLiveData)
