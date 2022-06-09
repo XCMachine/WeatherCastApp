@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "WeatherCastApp"
 include ':app'
 include ':network'
+include ':domain'
