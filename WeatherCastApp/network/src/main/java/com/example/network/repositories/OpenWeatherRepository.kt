@@ -1,4 +1,4 @@
-package com.example.weathercastapp.repositories
+package com.example.network.repositories
 
 import androidx.lifecycle.MutableLiveData
 import com.example.network.entities.datasources.WeatherRemoteDatasource
